@@ -1,0 +1,46 @@
+.Explore {
+    padding: 30px 2rem;
+    background-color: #f2f2f2;
+}
+
+.Explore h3 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.Explore h3::after {
+    content: " ";
+    display: block;
+    background-color: #1a4a7a;
+    width: 100px;
+    margin: 0.3rem auto;
+    height: 3px;
+}
+
+
+.Explore-Item {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    margin: 0.7rem;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    box-shadow: 0px 2px 2px 2px #ccc;
+    border-radius: 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+
+.Explore-Item h4 { 
+    margin: auto;
+    font-weight: 500;
+    padding: 5rem auto;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.Explore-Item:hover {
+    transform: scale(1.02);
+}
+

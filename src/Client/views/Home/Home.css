@@ -1,0 +1,12 @@
+.Home {
+    height: 500px;
+}
+
+.Home h4 {
+    position: relative;
+    top: 40%;
+    color: #fff;
+    width: 60%;
+    left: 10%;
+    font-size: 16px;
+}

@@ -1,0 +1,26 @@
+.AboutUs {
+    height: 400px;
+    padding-top: 40px;
+}
+
+.AboutUs h4 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.AboutUs h5 {
+    text-align: center;
+}
+
+.About-Box {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.About-Box p {
+    padding: 0.8rem 1.2rem;
+}
+

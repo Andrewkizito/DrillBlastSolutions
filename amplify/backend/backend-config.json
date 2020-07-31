@@ -1,0 +1,16 @@
+{
+	"auth": {
+		"drillblastsolutionsace24d19": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	},
+	"storage": {
+		"DrillBlastSolutions": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}

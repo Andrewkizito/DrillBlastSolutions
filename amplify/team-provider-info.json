@@ -1,0 +1,20 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-drillblastsolutions-prod-160531-authRole",
+            "UnauthRoleArn": "arn:aws:iam::316190357269:role/amplify-drillblastsolutions-prod-160531-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::316190357269:role/amplify-drillblastsolutions-prod-160531-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-drillblastsolutions-prod-160531-deployment",
+            "UnauthRoleName": "amplify-drillblastsolutions-prod-160531-unauthRole",
+            "StackName": "amplify-drillblastsolutions-prod-160531",
+            "StackId": "arn:aws:cloudformation:us-east-2:316190357269:stack/amplify-drillblastsolutions-prod-160531/32e4a4d0-d19c-11ea-a6ca-06e0ced8ee4a",
+            "AmplifyAppId": "d3b704c0094ahp"
+        },
+        "categories": {
+            "auth": {
+                "drillblastsolutionsace24d19": {}
+            }
+        }
+    }
+}

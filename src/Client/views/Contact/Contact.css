@@ -1,0 +1,27 @@
+.Contact {
+    width: 100%;
+    display: block;
+    height: 500px;
+    background-image: url('../../assets/images/yellow-excavator-2101137-min.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 5rem;
+}
+
+.Welcome-Box {
+    background: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0,0,0,0.2));
+    height: auto;
+    position: relative;
+    top: 30%;
+    width: 60%;
+    left: 10%;
+    padding: 1rem;
+}
+
+.Welcome-Box p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin: 0;
+}

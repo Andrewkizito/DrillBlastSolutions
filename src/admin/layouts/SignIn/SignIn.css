@@ -1,0 +1,141 @@
+.SignIn-Box {
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.5),rgba( 0, 0, 0, 0.5)),url('../../assets/img/graphs-job-laptop-papers-590016-min.jpg');
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.SignIn {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: var(--form-color);
+    padding: 35px 40px;
+    text-align: left;
+    display: inline-block;
+    min-width: 460px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.15);
+    box-sizing: border-box;
+    height: auto;
+}
+.Header-Section {    
+    color: #152939;
+    margin-bottom: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.Input-Label {
+    color: #152939;
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-weight: 300;
+}
+
+.Input-Box {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    font-size: 14px;
+    border: 1px solid #c4c4c4;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.Hint {
+    color: #c4c4c4;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.SignIn-Btn {
+    min-width: 153px;
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    color: var(--button-color);
+    background-color: orange;
+    border-color: #ccc;
+    text-transform: uppercase;
+    padding: 14px 0;
+    color: #fff;
+    border: none;
+    float: right;
+}
+
+.SignIn-Btn:hover {
+    background-color: rgba(255, 166, 0, 0.671);
+}
+
+
+.SignIn-Link {
+    font-size: 90%;
+    color: rgb(41, 40, 39);
+    padding-top: 0.8rem;
+    transition: all 0.4s;
+}
+.SignIn-Link:hover {
+    color: orange;
+}
+
+.SignIn-Link-2{
+    margin: 0.3rem;
+    color: rgb(255, 166, 0);
+    transition: all 0.4s;
+}
+.SignIn-Link-3{
+    margin: 0.3rem;
+    color: #153661;
+    transition: all 0.4s;
+}
+
+.SignIn-Link-2:hover,
+.SignIn-Link-3:hover {
+    color: rgb(144, 144, 144);
+    font-weight: 500;
+}
+
+.SignIn-Link-4 {
+    float: right;
+    padding: 0.40625rem 1.25rem;
+    font-size: 0.6875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 2px 2px 0 rgba(59, 89, 152, 0.14), 0 3px 1px -2px rgba(59, 89, 152, 0.2), 0 1px 5px 0 rgba(59, 89, 152, 0.12);
+    background-color: #e03434b0;
+    margin: 0.3rem;
+    transition: all 0.4s;
+}
+
+.SignIn-Link-4:hover {
+    background-color: #fff;
+}
+
+@media (max-width: 400px){
+    .SignIn {
+        position: relative;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        background-color: var(--form-color);
+        padding: 0.3rem auto;
+        text-align: left;
+        display: inline-block;
+        width: 90%;
+        border-radius: 6px;
+        box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.15);
+        box-sizing: border-box;
+    }
+}
